@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arhum Bilques Personal Form</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="abc">Arhum Bilques's Personalized Form</h1>
+    <h2>Arhum Bilques</h2>
+    <form>
+      <label for="name">Name: </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your full name"
+      />
+      <br /><br />
+      <label for="email">Email: </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+      />
+      <br /><br />
+      <label for="color">Favourite Color: </label>
+      <input type="color" id="color" name="color" />
+      <br /><br />
+      <label for="date of birth">Date of Birth: </label>
+      <input type="date" id="dateof birth" name="date of birth" />
+      <br /><br />
+      <label for="gender"><h3>Gender</h3> </label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male </label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female </label>
+      <input type="radio" id="other" name="gender" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label for="Hobbies"><h3>Hobbies</h3> </label>
+      <input type="checkbox" id="Cricket" name="hobbies" value="Cricket" />
+      <label for="Cricket">Cricket</label>
+      <input type="checkbox" id="Reading" name="hobbies" value="Reading" />
+      <label for="Reading">Reading</label>
+      <input type="checkbox" id="Music" name="hobbies" value="Music" />
+      <label for="Music">Music</label>
+      <br /><br />
+      <label for="rating"
+        ><h3>Rate your HTML learning</h3>
+        Learning experience (1 to 10):</label
+      >
+      <input type="range" id="rating" name="rating" min="1" max="10" />
+      <br /><br />
+      <h3>Upload image of your favourite hobby</h3>
+      <label for="file">Upload an image:</label>
+      <input type="file" id="file" name="file" />
+      <br /><br />
+      <table border="1">
+        <tr>
+          <th>Input Types</th>
+          <th>Example Data</th>
+        </tr>
+        <tr>
+          <td>Text</td>
+          <td>Arhum Bilques</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>abc@example.com</td>
+        </tr>
+        <tr>
+          <td>Color</td>
+          <td>#d56d6d</td>
+        </tr>
+        <tr>
+          <td>Date</td>
+          <td>06/16/2005</td>
+        </tr>
+        <tr>
+          <td>Radio</td>
+          <td>Female</td>
+        </tr>
+        <tr>
+          <td>Checkbox</td>
+          <td>Cricket</td>
+        </tr>
+        <tr>
+          <td>Range</td>
+          <td>6</td>
+        </tr>
+      </table>
+
+      <hr />
+
+      <a href="https://case.edu.pk/" target="_blank">Visit Your University</a>
+      <br /><br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
